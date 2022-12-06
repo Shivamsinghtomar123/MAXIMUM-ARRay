@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,n,s;
+	cin>>t;
+	while(t--){
+	    cin>>n;
+	    s = n*(n+1);
+	    s/=2;
+	   (s%2==0)?cout<<n<<"\n":cout<<n-1<<"\n";
+	}
+	return 0;
+}
